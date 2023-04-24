@@ -135,18 +135,7 @@ public class SocialNetwork extends JDialog {
 
         }
     }
-    @Override
-    public int compareTo(Persona per) {
 
-        /*if (txtPrioridad.getText()> 50){
-            return 1;
-        } else if (id< lb.id) {
-            return -1;
-        }else {
-            return 0;
-        }*/
-
-    }
 
     public static void main(String[] args) {
         SocialNetwork dialog = new SocialNetwork();

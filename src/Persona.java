@@ -1,4 +1,4 @@
-public class Persona {
+public class Persona implements Comparable<Persona>{
     String nombreCompleto;
     int id, edad, prioridad, amigos;
 
@@ -50,4 +50,11 @@ public class Persona {
     public void setAmigos(int amigos) {
         this.amigos = amigos;
     }
+    @Override
+    public int compareTo(Persona per) {
+
+        return Integer.compare(per.prioridad,this.prioridad);
+
+    }
+}
 
